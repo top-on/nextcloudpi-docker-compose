@@ -29,7 +29,7 @@ The NextCloudPi project provides [Docker Run instructions](https://github.com/ne
 3. Starting Docker container, depending on your CPU architecture:
 
     ```bash
-    docker-compose up -d ncp-<armhf|x86>
+    docker-compose up -d ncp-<arm|x86>
     ```
 
 4. Activation:
