@@ -13,6 +13,7 @@ services:
       - "4443:4443"
     volumes:
       - ncdata:/data
+      - ./backup/:/backup
     restart: always
 
   ncp-x86:
@@ -26,6 +27,7 @@ services:
       - "4443:4443"
     volumes:
       - ncdata:/data
+      - ./backup/:/backup
     restart: always
 
 volumes:
