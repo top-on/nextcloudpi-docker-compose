@@ -1,1 +1,4 @@
 .env
+
+# backup folder, defined in docker-compose
+/backup
